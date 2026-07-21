@@ -3,14 +3,15 @@ import { FiExternalLink } from 'react-icons/fi';
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 font-sans flex flex-col">
-      {/* Header — slightly smaller, less padding */}
+    <div 
+      className="min-h-screen text-slate-100 font-sans flex flex-col bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "url('/background.jpg')" }}>      {/* Header — slightly smaller, less padding */}
       <header className="w-full bg-slate-800/50 backdrop-blur-sm border-b border-slate-700/50 py-10 md:py-14">
         <div className="max-w-6xl mx-auto px-6 flex items-center gap-8 md:gap-12">
-          {/* Photo placeholder */}
-          <div className="w-28 h-28 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 border-4 border-slate-700 shadow-2xl flex items-center justify-center text-slate-300 text-4xl flex-shrink-0 overflow-hidden">
-            <span>📷</span>
-          </div>
+        <img 
+          src="/profile.jpg" 
+          alt="Rahul Joban" 
+          className="w-32 h-32 md:w-40 md:h-40 rounded-full border-2 border-slate-600 shadow-lg object-cover flex-shrink-0"        />
           <div>
             <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight">Rahul Joban</h1>
             <p className="text-2xl md:text-3xl text-slate-300 font-medium mt-2">Full-Stack Software Engineer</p>
