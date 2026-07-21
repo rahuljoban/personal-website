@@ -27,14 +27,25 @@ function App() {
           <p className="text-xl md:text-2xl text-slate-300 max-w-3xl leading-relaxed">
             I build tools that solve real problems — from retail inventory systems to customer-facing web apps.
           </p>
-          <div className="flex gap-6 mt-6 text-slate-400">
-            <a href="https://github.com/rahuljoban" target="_blank" className="hover:text-white transition-colors">
+          <div className="flex gap-6 mt-6">
+            <a 
+              href="https://github.com/rahuljoban" 
+              target="_blank" 
+              className="text-[#333] hover:text-[#000] transition-colors"
+            >
               <FaGithub size={28} />
             </a>
-            <a href="https://linkedin.com/in/rahuljobanputra" target="_blank" className="hover:text-white transition-colors">
+            <a 
+              href="https://linkedin.com/in/rahuljobanputra" 
+              target="_blank" 
+              className="text-[#0A66C2] hover:text-[#004182] transition-colors"
+            >
               <FaLinkedin size={28} />
             </a>
-            <a href="mailto:rahuljoban@gmail.com" className="hover:text-white transition-colors">
+            <a 
+              href="mailto:rahuljoban@gmail.com" 
+              className="text-[#EA4335] hover:text-[#C5221F] transition-colors"
+            >
               <FaEnvelope size={28} />
             </a>
           </div>
