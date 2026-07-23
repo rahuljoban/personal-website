@@ -1,7 +1,20 @@
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { FiExternalLink } from 'react-icons/fi';
+import Resume from './Resume';
 
 function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+function Home() {
   return (
     <div 
       className="min-h-screen text-slate-100 font-sans flex flex-col bg-cover bg-center bg-no-repeat"
@@ -49,6 +62,12 @@ function App() {
               <FaEnvelope size={28} />
             </a>
           </div>
+          <Link
+            to="/resume"
+            className="inline-flex items-center gap-2 text-indigo-300 hover:text-indigo-200 font-medium text-sm bg-indigo-900/30 px-4 py-2 rounded-full border border-indigo-700/50 hover:bg-indigo-800/40 transition-all mt-2"
+          >
+            📄 View Resume
+          </Link>
         </section>
 
         {/* Projects */}
