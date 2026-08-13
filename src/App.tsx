@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { FiExternalLink } from 'react-icons/fi';
 import Resume from './Resume';
