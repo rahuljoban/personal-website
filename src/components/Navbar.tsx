@@ -9,7 +9,7 @@ export default function Navbar() {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <nav className="w-full bg-slate-900/90 backdrop-blur-sm border-b border-slate-700/50 px-6 py-4">
+    <nav className="sticky top-0 w-full bg-slate-900/90 backdrop-blur-sm border-b border-slate-700/50 px-6 py-4 z-50">
       <div className="max-w-6xl mx-auto flex items-center justify-end">
         {/* Desktop Nav - hidden on mobile, shown on larger screens */}
         <div className="hidden md:flex gap-6 text-sm font-medium text-slate-300">
