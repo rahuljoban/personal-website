@@ -54,7 +54,7 @@ function Home() {
                 <a href="https://github.com/rahuljoban" target="_blank" className="text-[#333] hover:text-[#000] transition-colors">
                   <FaGithub size={28} />
                 </a>
-                <a href="https://linkedin.com/in/rahuljobanputra" target="_blank" className="text-[#0A66C2] hover:text-[#004182] transition-colors">
+                <a href="https://www.linkedin.com/in/rahul-joban-35737612a/" target="_blank" className="text-[#0A66C2] hover:text-[#004182] transition-colors">
                   <FaLinkedin size={28} />
                 </a>
                 <a href="mailto:rahuljoban@gmail.com" className="text-[#EA4335] hover:text-[#C5221F] transition-colors">

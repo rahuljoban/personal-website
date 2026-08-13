@@ -16,7 +16,7 @@ export default function Navbar() {
           <Link to="/" className="hover:text-white transition">Home</Link>
           <Link to="/resume" className="hover:text-white transition">Resume</Link>
           <a href="https://github.com/rahuljoban" target="_blank" className="hover:text-white transition">GitHub</a>
-          <a href="https://linkedin.com/in/rahuljobanputra" target="_blank" className="hover:text-white transition">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/rahul-joban-35737612a/" target="_blank" className="hover:text-white transition">LinkedIn</a>
         </div>
 
         {/* Mobile Hamburger - aligned to the right */}
@@ -35,7 +35,7 @@ export default function Navbar() {
           <Link to="/" onClick={closeMenu} className="hover:text-white transition">Home</Link>
           <Link to="/resume" onClick={closeMenu} className="hover:text-white transition">Resume</Link>
           <a href="https://github.com/rahuljoban" target="_blank" onClick={closeMenu} className="hover:text-white transition">GitHub</a>
-          <a href="https://linkedin.com/in/rahuljobanputra" target="_blank" onClick={closeMenu} className="hover:text-white transition">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/rahul-joban-35737612a/" target="_blank" onClick={closeMenu} className="hover:text-white transition">LinkedIn</a>
         </div>
       )}
     </nav>
