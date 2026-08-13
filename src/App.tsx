@@ -44,12 +44,12 @@ function Home() {
 
         {/* Main Content */}
         <main className="flex-1 max-w-6xl mx-auto w-full px-6 py-8 md:py-12">
-          <section className="mb-16">
+          <section className="mb-10">
             <p className="text-xl md:text-2xl text-slate-200 max-w-3xl leading-relaxed drop-shadow-lg">
               I build tools that solve real problems — from retail inventory systems to customer-facing web apps.
             </p>
 
-            <div className="flex flex-wrap gap-4 mt-6">
+            <div className="flex flex-wrap gap-4 mt-4">
               <div className="flex gap-6 text-slate-300">
                 <a href="https://github.com/rahuljoban" target="_blank" className="text-[#333] hover:text-[#000] transition-colors">
                   <FaGithub size={28} />
